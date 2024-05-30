@@ -88,14 +88,14 @@ public class Cafe {
 			        return quantity * itemPrice;
 			    }
 
-		/*	    public static double applyDiscount(double total) {
+			    public static double applyDiscount(double total) {
 			        if (total > 50) {
 			            return total * 0.9;
 			        } else {
 			            return total;
 			        }
 			    }
-	*/
+	
 			    public static void displayReceipt(double discountedTotal, double discountAmount) {
 			        System.out.println("Receipt:");
 			        System.out.println("---------");
